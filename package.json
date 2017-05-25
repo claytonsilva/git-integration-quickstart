@@ -39,7 +39,7 @@
       "helpMessage": ""
     },
     "commitizen": {
-      "path": "./node_modules/cz-jira-smart-commit"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
