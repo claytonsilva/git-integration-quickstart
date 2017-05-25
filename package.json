@@ -14,8 +14,7 @@
     "conventional-changelog-lint": "^1.1.9",
     "cz-conventional-changelog": "^2.0.0",
     "cz-jira-smart-commit": "git+https://github.com/claytonsilva/cz-taiga-smart-commit.git",
-    "husky": "^0.13.3",
-    "validate-commit-msg": "^2.12.1"
+    "husky": "^0.13.3"
   },
   "config": {
     "validate-commit-msg": {
@@ -39,7 +38,8 @@
       "helpMessage": ""
     },
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog",
+      "validate-commit-msg": "^2.12.1"
     }
   }
 }
