@@ -39,9 +39,7 @@
       "helpMessage": ""
     },
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog",
-      "validate-commit-msg": "^2.12.1"
+      "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "dependencies": {}
+  }
 }
