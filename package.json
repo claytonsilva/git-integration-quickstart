@@ -39,7 +39,9 @@
       "helpMessage": ""
     },
     "commitizen": {
-      "path": "./node_modules/cz-jira-smart-commit"
+      "path": "./node_modules/cz-conventional-changelog",
+      "validate-commit-msg": "^2.12.1"
     }
-  }
+  },
+  "dependencies": {}
 }
